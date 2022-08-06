@@ -1,0 +1,19 @@
+<div class="lg:max-w-2xl mx-auto">
+    <div class="mb-6 font-heading flex items-center max-w-max mx-auto px-5 py-2.5 uppercase font-semibold text-xs tracking-px text-white bg-white bg-opacity-20 rounded-lg">
+      <p data-config-id="auto-txt-12-3">Rated #2 on G2</p>
+    </div>
+    <h1 class="mb-6 font-heading text-center text-white text-7xl md:text-9xl xl:text-12xl font-bold" data-config-id="auto-txt-13-3">Customer service that actually works</h1>
+    <p class="mb-10 font-medium text-xl text-center text-white" data-config-id="auto-txt-14-3">Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
+    <button class="group mb-9 relative flex items-center justify-center font-heading px-24 py-5 mx-auto w-full lg:w-auto uppercase text-white text-xs font-semibold tracking-px bg-gray-900 overflow-hidden rounded-md">
+      <div class="absolute transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-fuchsia"></div>
+      <p class="relative z-10 mr-2" data-config-id="auto-txt-15-3">Get started now</p>
+    </button>
+    <ul class="flex justify-center">
+      <li class="flex items-center mr-6">
+        <p class="font-heading text-white text-base" data-config-id="auto-txt-16-3">No credit card required</p>
+      </li>
+      <li class="flex items-center">
+        <p class="font-heading text-white text-base" data-config-id="auto-txt-17-3">Cancel anytime</p>
+      </li>
+    </ul>
+  </div>
