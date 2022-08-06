@@ -32,6 +32,7 @@ const Hero = () => {
           <img src='logo3.png' alt='logo3'/>
           <img src='logo4.png' alt='logo4'/>
         </div>
+        <img src='squares.png' alt='squares' className='absolute bottom-20 right-[50px]'/>
     </section>
   )
 }
