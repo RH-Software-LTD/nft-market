@@ -4,7 +4,7 @@ import {SearchIcon} from '@heroicons/react/outline'
 const Hero = () => {
   return (
     <section className='relative container z-0 mx-auto px-4'>
-        <div className='flex flex-wrap lg:pt-32 pb-56'>
+        <div className='flex flex-wrap lg:pt-32 pb-32'>
             <div className='lg:max-w-2xl text-[#7780A1] mt-20 text-center mx-auto'>
                 <h3 className='uppercase text-[15px] '>Non Fungible Tokens</h3>
                 <img className='p-8' src='/hero-frame.png' alt='hero-frame' />
