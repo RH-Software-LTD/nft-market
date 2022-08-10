@@ -14,10 +14,10 @@ const Banner = () => {
                     Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor pulvinar ultricies dolor feugiat aliquam commodo.
                 </p>
                 <div className='text-white flex flex-row my-12 gap-10 items-center'>
-                    <a className='text-white rounded-xl bg-[#4745D0] p-3 shadow-lg'>
+                    <a className='text-white rounded-xl bg-[#4745D0] p-3 shadow-lg' href='#'>
                         Get started
                     </a>
-                    <a className='text-gray-600 border-gray-500 border-[1px] p-3 rounded-xl border-opacity-30'>
+                    <a className='text-gray-600 border-gray-500 border-[1px] p-3 rounded-xl border-opacity-30' href='#'>
                         Learn more
                     </a>
                 </div>

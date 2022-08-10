@@ -9,9 +9,9 @@ const Hero = () => {
                 <h3 className='uppercase text-[15px] '>Non Fungible Tokens</h3>
                 <img className='p-8' src='/hero-frame.png' alt='hero-frame' />
                 <p className='text-xl'>Discover, collect and sell</p>
-                <div class="hidden xl:flex mt-14 p-3 w-4/5 mx-auto bg-white rounded-lg">
-                  <input class="w-full border-0 focus:outline-none py-2" type="text" placeholder="Items, collections and creators"/>
-                  <select class="pl-6 pr-6 border-0 border-l border-gray-200 focus:outline-none cursor-pointer" name="" id="">
+                <div className="hidden xl:flex mt-14 p-3 w-4/5 mx-auto bg-white rounded-lg">
+                  <input className="w-full border-0 focus:outline-none py-2" type="text" placeholder="Items, collections and creators"/>
+                  <select className="pl-6 pr-6 border-0 border-l border-gray-200 focus:outline-none cursor-pointer" name="" id="">
                     <option data-config-id="opt1">Category</option>
                     <option data-config-id="opt2">Music</option>
                     <option data-config-id="opt3">Art</option>
