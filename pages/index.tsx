@@ -6,6 +6,8 @@ import Hero from '../components/Hero'
 import Auctions from '../components/Auctions'
 import Banner from '../components/Banner'
 import Listbanner from '../components/Listbanner'
+import BannerLeft from '../components/BannerLeft'
+import Grids from '../components/Grids'
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +17,8 @@ const Home: NextPage = () => {
       <Auctions/>
       <Banner/>
       <Listbanner/>
-
+      <BannerLeft/>
+      <Grids/>
     </div>
   )
 }
