@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -6,12 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero': "url('/public/background.png')",
+      fontFamily: {
+        'hero' : ['Inter', ...defaultTheme.fontFamily.sans],
+
       }
-    }
+    },
   },
   plugins: [],
-  theme: {
-  }
 }
