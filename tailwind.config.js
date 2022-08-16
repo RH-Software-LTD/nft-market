@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'hero' : ['Inter', ...defaultTheme.fontFamily.sans],
+        'InterSans' : ['Inter', ...defaultTheme.fontFamily.sans],
 
       }
     },
