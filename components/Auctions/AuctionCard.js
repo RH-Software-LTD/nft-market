@@ -1,4 +1,3 @@
-
 import { ClockIcon } from '@heroicons/react/outline'
 import { HeartIcon } from '@heroicons/react/solid'
 
@@ -8,7 +7,7 @@ const AuctionCard = ({ imgUrl, headerText, price, timeOut, bids, fav }) => {
         <>
             <div className='flex justify-center'>
 
-                <img src={imgUrl} alt='auction0' className='w-[400px] h-[520px] mx-6 my-6 rounded-lg' />
+                <img src={imgUrl} className='mx-6 my-6 rounded-lg' />
             </div>
             <div className='flex flex-row items-center mt-6 gap-9'>
                 <h6 className='justify-start text-white w-2/3 px-6 text-[20px]'>{headerText}</h6>

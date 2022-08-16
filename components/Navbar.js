@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Navbar = () => {
   return (
@@ -35,12 +34,12 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row justify-end items-center gap-4'>
                 <div className='hidden sm:gap-4 sm:flex'>
-                    <a className='px-5 py-2.5 text-sm font font-medium text-white border-2 rounded-xl' href='#'>
+                    <a className='px-5 py-2.5 text-sm font font-medium text-white border-[1px] rounded-xl' href='#'>
                         Contact
                     </a>
                 </div>
                 <div className='flex'>
-                    <a className='px-5 py-2.5 text-sm font font-medium text-white border-2 rounded-xl' href='#'>
+                    <a className='px-5 py-2.5 text-sm font font-medium text-white border-[1px] border-black rounded-xl purple-button' href='#'>
                         My Account
                     </a>
                 </div>

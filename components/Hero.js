@@ -1,4 +1,3 @@
-import React from 'react'
 import { SearchIcon } from '@heroicons/react/outline'
 
 const Hero = () => {
@@ -6,11 +5,11 @@ const Hero = () => {
     <section className='relative max-w-screen bg-hero z-10'>
       <div className='flex flex-wrap items-center justify-center lg:py-40'>
         <div className='w-1/2 flex flex-col items-center justify-center text-[#7780A1]'>
-          <h3 className='font-hero font-medium uppercase mb-8 text-[15px] leading-[18px] tracking-[3px]'>Non Fungible Tokens</h3>
+          <h3 className='font-InterSans font-medium uppercase mb-8 text-[15px] leading-[18px] tracking-[3px]'>Non Fungible Tokens</h3>
 
           <img className='mb-12' src='/hero-frame.png' alt='hero-frame' />
 
-          <p className='font-hero text-xl'>Discover, collect and sell</p>
+          <p className='font-InterSans text-xl'>Discover, collect and sell</p>
           <div className="hidden xl:flex mt-12 p-3 w-3/4 mx-auto focus:outline-none bg-white rounded-lg">
             <input className="w-full border-0 focus:outline-none py-2" type="text" placeholder="Items, collections and creators" />
             <select className="pl-6 pr-6 border-0 border-l border-gray-200 focus:outline-none cursor-pointer" name="" id="">

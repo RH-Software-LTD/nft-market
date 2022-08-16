@@ -1,7 +1,4 @@
-import React from 'react'
 import CarouselAuctions from './CarouselAuctions'
-import { ClockIcon} from '@heroicons/react/outline'
-import {HeartIcon} from '@heroicons/react/solid'
 
 const Auctions = () => {
     return (

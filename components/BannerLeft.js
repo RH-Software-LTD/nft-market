@@ -1,5 +1,3 @@
-import React from 'react'
-
 const BannerLeft = () => {
   return (
     <section className='mt-[150px] mb-[100px] flex justify-center'>

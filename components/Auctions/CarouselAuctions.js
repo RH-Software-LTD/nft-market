@@ -1,4 +1,3 @@
-import { ClockIcon, HeartIcon } from '@heroicons/react/outline'
 import AuctionCard from './AuctionCard'
 
 import Carousel from "react-multi-carousel";
@@ -23,7 +22,7 @@ const responsive = {
 };
 
 const styles = {
-    cardContainer: 'w-1/4 mx-3 border-[1px] border-gray-800 rounded-[24px] flex-none order-0 flex-grow-0',
+    cardContainer: 'hover:cursor-pointer mx-3 border-[1px] border-gray-800 rounded-[24px] flex-none order-0 flex-grow-0',
 }
 
 const CarouselAuctions = () => {
@@ -33,6 +32,7 @@ const CarouselAuctions = () => {
             draggable={true}
             showDots={false}
             responsive={responsive}
+            focusOnSelect={true}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={true}
