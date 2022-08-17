@@ -12,7 +12,7 @@ import Grids from "../components/Grids";
 const Home: NextPage = () => {
   return (
     <div
-      className="flex flex-col justify-center bg-[#060714] bg-[top_center]"
+      className="flex flex-col justify-center bg-no-repeat bg-[#060714] bg-[top_center]"
       style={{ backgroundImage: `url('background.svg')` }}
     >
       <Navbar />
