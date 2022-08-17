@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@lyket/react": "^1.4.8",
     "next": "latest",
     "react": "18.1.0",
     "react-burger-menu": "^3.0.8",
