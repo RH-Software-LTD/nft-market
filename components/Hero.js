@@ -2,15 +2,17 @@ import { SearchIcon } from '@heroicons/react/outline'
 
 const Hero = () => {
   return (
-    <section className='relative max-w-screen bg-hero z-10'>
-      <div className='flex flex-wrap items-center justify-center lg:py-40'>
-        <div className='w-1/2 flex flex-col items-center justify-center text-[#7780A1]'>
-          <h3 className='font-InterSans font-medium uppercase mb-8 text-[15px] leading-[18px] tracking-[3px]'>Non Fungible Tokens</h3>
+    <section className='sm:relative max-w-screen bg-hero z-10 flex flex-col items-center mb-8 md:mb-16 lg:mb-48'>
+      <div className='flex flex-wrap items-center justify-center md:py-20 lg:py-60'>
+        <div className='w-10/12 md:w-1/2 flex flex-col items-center justify-center text-[#7780A1]'>
+          <span className='whitespace-nowrap font-InterSans font-medium uppercase mb-4 md:mb-8 text-[10px] md:text-base md:leading-[18px] tracking-[3px]'>
+            Non Fungible Tokens
+          </span>
 
-          <img className='mb-12' src='/hero-frame.png' alt='hero-frame' />
+          <img src='/hero-frame.png' alt='hero-frame' />
 
-          <p className='font-InterSans text-xl'>Discover, collect and sell</p>
-          <div className="hidden xl:flex mt-12 p-3 w-3/4 mx-auto focus:outline-none bg-white rounded-lg">
+          <p className='font-InterSans text-xs sm:text-xl my-4 lg:my-12'>Discover, collect and sell</p>
+          <div className="hidden xl:flex p-3 w-3/4 mx-auto focus:outline-none bg-white rounded-lg">
             <input className="w-full border-0 focus:outline-none py-2" type="text" placeholder="Items, collections and creators" />
             <select className="pl-6 pr-6 border-0 border-l border-gray-200 focus:outline-none cursor-pointer" name="" id="">
               <option data-config-id="opt1">Category</option>
@@ -27,13 +29,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row justify-center space-x-24 mb-48'>
-        <img src='logo1.png' alt='logo1' />
-        <img src='logo2.png' alt='logo2' />
-        <img src='logo3.png' alt='logo3' />
-        <img src='logo4.png' alt='logo4' />
+      <div className='flex flex-row w-1/2 sm:w-1/3  justify-center gap-3'>
+        <img src='logo1.svg' alt='logo1' className='w-1/4' />
+        <img src='logo2.svg' alt='logo2' className='w-1/4' />
+        <img src='logo3.svg' alt='logo3' className='w-1/4' />
+        <img src='logo4.svg' alt='logo4' className='w-1/4' />
       </div>
-      <img src='Squares.svg' alt='squares' className='absolute -z-10 bottom-20 right-[50px]' />
+      <img src='Squares.svg' alt='squares' className='hidden md:flex absolute md:top-10 lg:top-52 -z-10 w-full' />
     </section>
   )
 }
