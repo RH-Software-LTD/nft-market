@@ -9,10 +9,11 @@
     "@heroicons/react": "^1.0.6",
     "next": "latest",
     "react": "18.1.0",
+    "react-burger-menu": "^3.0.8",
     "react-dom": "18.1.0",
     "react-icons": "^4.4.0",
     "react-multi-carousel": "^2.8.2"
-    },
+  },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
