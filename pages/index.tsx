@@ -10,6 +10,8 @@ import BannerLeft from "../components/BannerLeft";
 import Grids from "../components/Grids";
 import Stats from "../components/stats/Stats";
 import Folder from "../components/Folder";
+import Imagebox from "../components/Imagebox/Imagebox";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +29,8 @@ const Home: NextPage = () => {
         <Grids />
         <Stats/>
         <Folder />
+        <Imagebox/>
+        <Footer />
       </div>
     </div>
   );
