@@ -1,7 +1,7 @@
 const BannerLeft = () => {
     return (
-        <section className='mt-[150px] mb-[100px] flex justify-center text-center md:text-start'>
-            <div className='flex flex-col sm:flex-row lg:space-x-32 items-center text-white'>
+        <section className='w-3/4 mt-[150px] mb-[100px] flex justify-center text-center md:text-start'>
+            <div className='flex w-full flex-col sm:flex-row lg:space-x-32 items-center text-white'>
                 <div className='w-4/5 sm:w-1/2'>
                     <img src='left-image.png' />
                 </div>

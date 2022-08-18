@@ -8,7 +8,8 @@ import Banner from "../components/Banner";
 import TripleBox from "../components/TripleBox/TripleBox";
 import BannerLeft from "../components/BannerLeft";
 import Grids from "../components/Grids";
-import Stats from "../components/Stats";
+import Stats from "../components/stats/Stats";
+import Folder from "../components/Folder";
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <BannerLeft />  
         <Grids />
         <Stats/>
+        <Folder />
       </div>
     </div>
   );

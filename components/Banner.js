@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <section className='mt-24 flex flex-col-reverse sm:flex-row justify-center items-center '>
+        <section className='w-3/4 mt-24 flex flex-col-reverse sm:flex-row justify-center items-center '>
             <div className='flex flex-col w-10/12 w-2/5'>
                 <span className='font-InterSans uppercase mb-4 text-[15px] leading-[18px] tracking-[3px] font-semibold text-gray-500'>
                     Overline
