@@ -4,9 +4,8 @@ import { HeartIcon } from '@heroicons/react/solid'
 
 const AuctionCard = ({ imgUrl, headerText, price, timeOut, bids, fav }) => {
     return (
-        <>
+        <div>
             <div className='flex justify-center'>
-
                 <img src={imgUrl} className='mx-6 my-6 rounded-lg' />
             </div>
             <div className='flex flex-row items-center mt-6 gap-9'>
@@ -27,7 +26,7 @@ const AuctionCard = ({ imgUrl, headerText, price, timeOut, bids, fav }) => {
                     <span className='text-white ml-2'>{fav}</span>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

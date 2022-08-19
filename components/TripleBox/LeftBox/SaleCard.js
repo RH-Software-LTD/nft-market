@@ -7,7 +7,7 @@ const SaleCard = ({ imgUrl, headerText, price, timeOut, bids, fav }) => {
         <div>
             <div className='flex justify-center'>
 
-                <img src={imgUrl} className='rounded-lg h-[420px] object-cover' />
+                <img src={imgUrl} className='rounded-lg h-[355px] object-cover' />
             </div>
             <div className='flex flex-row items-center mt-4'>
                 <h6 className='text-white font-semibold text-[16px]'>{headerText}</h6>

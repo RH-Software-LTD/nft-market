@@ -19,7 +19,7 @@ const Stats = () => {
             300k
           </h2>
           <p className={styles.p}>
-            Projects completed
+            Users Active
           </p>
         </div>
         <div className={styles.item}>

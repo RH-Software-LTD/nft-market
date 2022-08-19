@@ -11,13 +11,13 @@ const Grids = () => {
           Overline
         </span>        <h4 className="text-3xl text-white">Most popular live auctions</h4>
       </div>
-      <div className="justify-center flex flex-row gap-4 text-[#7780A1]">
+      <div className="justify-center grid grid-cols-2 md:grid-cols-4 gap-4 text-[#7780A1]">
         <a className="border-2 rounded-lg p-1 border-[#262840]">Architecture</a>
         <a className="border-2 rounded-lg p-1 border-[#7780A1]">Photography</a>
         <a className="border-2 rounded-lg p-1 border-[#262840]">Games</a>
         <a className="border-2 rounded-lg p-1 border-[#262840]">Music</a>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center mt-20 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center mt-20 gap-6">
         <div>
           <img src="column-images/image.svg" className="rounded-[20px]" />
           <p className="text-white mt-4">Faucibus habitasse at et platea massa mauris</p>
