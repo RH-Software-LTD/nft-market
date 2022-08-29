@@ -1,9 +1,9 @@
 import Icons from './Icons'
 
 const styles = {
-  section: 'w-3/4 my-24 px-60',
-  container: 'flex flex-wrap justify-center text-center -mx-4 gap-y-1',
-  item: 'flex flex-col w-full justify-center items-center w-1/4 md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0',
+  section: 'flex justify-center w-3/4 my-24',
+  container: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-center text-center w-3/5',
+  item: 'flex flex-col w-full justify-center items-center',
   h2: 'pt-4 pb-1 text-5xl md:text-5xl font-bold text-white tracking-tighter leading-tight',
   p: 'text-lg md:text-xl text-white font-medium'
 
