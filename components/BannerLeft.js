@@ -28,10 +28,10 @@ const BannerLeft = () => {
                         </div>
                     </div>
                     <div className='mt-[56px] flex flex-row gap-2 sm:gap-4 justify-center md:justify-start items-center'>
-                        <a className='bg-[#4745D0] text-center w-1/2 sm:w-1/5 whitespace-nowrap p-3 border-2 border-[#4745D0] border-opacity-40 rounded-xl' href='#'>
+                        <a className='bg-[#4745D0] text-center  w-auto whitespace-nowrap p-3 border-2 border-[#4745D0] border-opacity-40 rounded-xl' href='#'>
                             Get Started
                         </a>
-                        <a className='w-1/2 sm:w-1/5 text-center border-2 border-gray-400 p-3 whitespace-nowrap rounded-xl' href='#'>
+                        <a className='w-auto text-center border-2 border-gray-400 p-3 whitespace-nowrap rounded-xl' href='#'>
                             <span className='text-gray-400'>
                                 Learn more
                             </span>
