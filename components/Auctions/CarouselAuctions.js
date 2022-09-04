@@ -4,13 +4,18 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
-    desktop: {
+    desktopXL: {
         breakpoint: { max: 3000, min: 1024 },
+        items: 4,
+        slidesToSlide: 1 // optional, default to 1.
+    },
+    desktop: {
+        breakpoint: { max: 1024, min: 900 },
         items: 3,
         slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 900, min: 464 },
         items: 2,
         slidesToSlide: 1 // optional, default to 1.
     },
@@ -22,6 +27,7 @@ const responsive = {
 };
 
 const styles = {
+    carouselContainer : '',
     cardContainer: 'hover:cursor-pointer mx-3 border-[1px] border-gray-800 rounded-[24px] flex-none order-0 flex-grow-0',
 }
 
@@ -35,13 +41,13 @@ const CarouselAuctions = () => {
             focusOnSelect={true}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
-            autoPlay={true}
+            autoPlay={false}
             autoPlaySpeed={5000}
             keyBoardControl={false}
-            centerMode={false}
+            centerMode={true}
             transitionDuration={100}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
+            containerClass={styles.carouselContainer}
+            removeArrowOnDeviceType={["desktopXL","desktop", "tablet", "mobile"]}
             dotListClass="custom-dot-list-style"
             itemClass={styles.cardContainer}
         >
