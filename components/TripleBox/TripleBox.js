@@ -3,12 +3,12 @@ import RightBox from './RightBox/RightBox'
 
 const TripleBox = () => {
   return (
-    <section className='w-3/4 mt-24 flex flex-col sm:flex-row gap-6 justify-center'>
+    <section className='w-3/4 mt-24 flex flex-col lg:flex-row gap-6 justify-center'>
 
-      <div className='w-full sm:w-1/3'>
+      <div className='w-full lg:w-1/3'>
         <LeftBox />
       </div>
-      <div className='w-full sm:w-1/3 flex flex-col relative w-full justify-end bg-no-repeat bg-cover' style={{ backgroundImage: `url('midBox.svg')` }}>
+      <div className='w-full lg:w-1/3 flex flex-col relative w-full justify-end bg-no-repeat bg-cover' style={{ backgroundImage: `url('midBox.svg')` }}>
         <div className="absolute top-[-50px]">
           <img src='HandOfGod.png' alt='HandOfGod' />
         </div>
@@ -27,7 +27,7 @@ const TripleBox = () => {
           Get started
         </a>
       </div>
-      <div className='w-full sm:w-1/3'>
+      <div className='w-full lg:w-1/3 h-full'>
         <RightBox />
       </div>
     </section>
