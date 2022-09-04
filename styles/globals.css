@@ -16,3 +16,12 @@ body {
   box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1),
     inset 4px 4px 4px rgba(255, 255, 255, 0.1);
 }
+
+.folder-background {
+  background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%), #060714;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.background {
+  background-position: 50% -4%;
+}
