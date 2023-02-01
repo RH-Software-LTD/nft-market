@@ -4,7 +4,7 @@ import SaleCard from '../RightBox/SaleCard'
 
 const RightBox = () => {
     return (
-        <div className='flex flex-col justify-start items-center border-[1px] border-gray-800 rounded-[24px] overflow-hidden'>
+        <div className='flex flex-col justify-center items-center border-[1px] border-gray-800 rounded-[24px] overflow-hidden h-full'>
             <p className="text-white pl-8 pr-24 py-8 font-semibold text-[32px] tracking-[0.2px]">
                 Top NFT at a lower price
             </p>
